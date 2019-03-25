@@ -1,0 +1,6 @@
+---
+applications:
+- name: spingcrud-people
+  path: build/libs/spring-crud-people-0.0.1-SNAPSHOT.jar
+  memory: 768M
+  instances: 1
