@@ -8,6 +8,7 @@ echo " .. Running build"
 echo ""
 
 cd service-repo
+chmod +x gradlew
 
 # gradle build
 export GRADLE_OPTS="-Dorg.gradle.native=false"
@@ -23,4 +24,4 @@ cp build/libs/*.jar ../build-output/
 
 echo ""
 echo " Build completed!!!"
-echo " "
+echo ""
